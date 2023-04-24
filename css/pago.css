@@ -1,0 +1,47 @@
+:root{
+    --color-primario:#d9d9d9;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+}
+.nav_bar{
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 39rem;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    display: inline;
+    text-decoration: none;
+    background-color: var(--color-primario);
+}
+.titulo{
+    margin:10rem 0 13rem 0;
+    text-align: center;
+    font-size: 3rem;
+}
+.contenedor{
+    width: 39rem;
+    height: 33rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.contenedor_metodo{
+    width: 13rem;
+    height: 13rem;
+    background-color: #d9d9d9;
+    font-size: 3rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

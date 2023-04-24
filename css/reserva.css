@@ -1,0 +1,107 @@
+:root{
+    --color-primario:#d9d9d9;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+}
+.nav_bar{
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 39rem;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    display: inline;
+    text-decoration: none;
+    background-color: var(--color-primario);
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor h1{
+    display: inline;
+    font-size: 3rem;
+    margin:9rem 0 4rem 0;
+}
+.contenedor_sections{
+    width: 37rem;
+    height: 32rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    border:1px solid black;
+}
+.secciones{
+    width: 12rem;
+    height: 11rem;
+    border:1.5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6rem;
+    flex-wrap: wrap;
+}
+.secciones:nth-child(1){
+    margin-right: 3.5rem;
+    font-size: 3rem;
+}
+.secciones:nth-child(2){
+    margin-left: 3.5rem;
+    font-size: 3rem;
+}
+.secciones:nth-child(3){
+    margin-right: 3.5rem;
+    font-size: 3rem;
+}
+.secciones:nth-child(4){
+    margin-left: 3.5rem;
+    font-size: 3rem;
+}
+
+.datos_adicionales{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1.6rem;
+}
+.datos_adicionales__secciones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+.datos_adicionales__secciones h2{
+    display: inline;
+    font-size: 3rem;
+}
+.datos_adicionales__secciones input{
+    width: 20rem;
+    height: 3rem;
+    text-align: right;
+}
+.datos_adicionales__secciones:last-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6.6rem 0 1.5rem 0;
+}
+.btn_pagar{
+    width: 33rem;
+    height: 3.9rem;
+    font-size: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:none;
+    background-color: var(--color-primario);
+}
