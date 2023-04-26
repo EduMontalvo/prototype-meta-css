@@ -10,20 +10,54 @@ html{
 .nav_bar{
     font-size: 1.5rem;
     padding: 1rem;
-    width: 39rem;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
 }
-a{
-    display: inline;
+.nav_bar-back a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
     text-decoration: none;
 }
-a:last-child{
-    visibility: hidden;
+.nav_bar-back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
+/* a{
+    font-size: 2rem;
+    display: inline;
+} */
+.nav_bar-menu{
+    width: 15%;
+    color: #0073f1;
+}
+.nav_bar-logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 35%;
+}
+.nav_bar-logo p:first-child{
+    color: #0073f1;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.nav_bar-logo p:nth-child(2){
+    color: #01c2b9;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.nav_bar-login-icon{
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 .formulario{
-    height: 78.1rem;
+    height: 94vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,9 +65,10 @@ a:last-child{
 }
 .formulario h1{
     font-size: 3rem;
+    color: #01c2b9;
 }
 .formulario fieldset{
-    height: 54rem;
+    height: 80vh;
     width: 35rem;
     display: flex;
     flex-direction: column;
@@ -42,29 +77,38 @@ a:last-child{
     border:none;
 }
 fieldset section{
-    background-color: #d9d9d9;
-    width: 35rem;
-    height: 6rem;
+    background-color: #01c2b9;
+    width: 90vw;
+    height: 8vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border:none;
+    border-radius: 0.6rem;
     padding: 1rem;
 }
 
 section label{
     font-size: 2rem;
+    color: #fff;
 }
 section input{
-    width: 20rem;
-    height: 5rem;
+    width: 50vw;
+    height: 3.5rem;
+    border-radius: 0.6rem;
 }
 fieldset button{
     font-size: 3.5rem;
-    width: 33.1rem;
-    height: 3.9rem;
-    background-color: #d9d9d9;
+    width: 30rem;
+    background-color: #0073f1;
     border:none;
-    margin-top: 5rem;
+    border-radius: 0.6rem;
+    margin-top: 2rem;
+    padding: 0.5rem 0;
     cursor: pointer;
+    color: #fff;
+    transition: 1s;
+}
+fieldset button:hover{
+    background-color: #01c2b9;
 }
