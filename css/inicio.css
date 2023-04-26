@@ -54,7 +54,6 @@ html{
     flex-direction: column;
     justify-content: space-around;
     align-items: start;
-    /* padding: 1rem; */
     border:1px solid black;
 }
 .seccion_banner img{
@@ -89,6 +88,10 @@ html{
     width: 11rem;
     height: 2.8rem;
     cursor: pointer;
+    transition: 1s;
+}
+.seccion_banner button:hover{
+    background-color: #0073f1;
 }
 .seccion_intermedia{
     width: 100vw;
